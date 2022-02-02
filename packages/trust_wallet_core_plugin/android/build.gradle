@@ -1,0 +1,50 @@
+group 'com.example.trust_wallet_core_plugin'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.3.50'
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/trustwallet/wallet-core")
+            credentials {
+                username = "vlsilver"
+                password = "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"
+            }
+        }
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: "maven"
+
+android {
+    compileSdkVersion 30
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+    defaultConfig {
+        minSdkVersion 23
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "com.trustwallet:wallet-core:2.6.10"
+}

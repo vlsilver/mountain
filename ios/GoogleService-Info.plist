@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>242358004504-jiakgvn80ls2i53db231ch8gee70vj82.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.242358004504-jiakgvn80ls2i53db231ch8gee70vj82</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCUhUOXCN9_YydJaEM1_oFyF7Ize82BgHY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>242358004504</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.decomlab.wallet</string>
+	<key>PROJECT_ID</key>
+	<string>moon-wallet-8a7b7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>moon-wallet-8a7b7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:242358004504:ios:810638ee82717622450c6d</string>
+</dict>
+</plist>

@@ -1,0 +1,25 @@
+{
+    "editor.fontFamily": "Input Mono Condensed,Fira Code, Roboto Mono, monospace",
+    "debug.console.fontFamily": "Input Mono Condensed,Fira Code, Roboto Mono, monospace",
+    "scm.inputFontFamily":"Input Mono Condensed,Fira Code, Roboto Mono, monospace",
+    "terminal.integrated.fontFamily": "Input Mono Condensed,Fira Code, Roboto Mono, monospace",
+    "markdown.preview.fontFamily": "Input Mono Condensed,Fira Code, Roboto Mono, monospace",
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "functions": {
+            "foreground": "#ff9500",
+        },
+        // "types": {
+        //     "foreground": "#007aff",
+        // },
+        "strings": {
+            "foreground": "#1cd952",
+        },
+        "keywords": {
+            "foreground": "#ff3b30",
+            "fontStyle": "bold underline"
+        },
+        "numbers": "#007AFF"
+        
+    },
+}

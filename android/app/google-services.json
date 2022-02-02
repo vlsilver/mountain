@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "242358004504",
+    "project_id": "moon-wallet-8a7b7",
+    "storage_bucket": "moon-wallet-8a7b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242358004504:android:84da58407f7f4c2b450c6d",
+        "android_client_info": {
+          "package_name": "com.decomlab.wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242358004504-08i0hfen7g404olv7nq60mdmmb9j287r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWi8dwnYEYkwL9X-cBWf9fvF2e9gxEZv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242358004504-08i0hfen7g404olv7nq60mdmmb9j287r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "242358004504-jiakgvn80ls2i53db231ch8gee70vj82.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.decomlab.wallet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
